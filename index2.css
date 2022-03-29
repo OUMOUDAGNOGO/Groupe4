@@ -1,0 +1,164 @@
+
+	header{
+	width: 100%;
+	height: 90px;
+	/*background-color: red;*/
+	margin: auto;
+	padding-top:auto;
+	box-shadow: 0px 15px 10px -20px;
+        }
+
+.opt{
+	float: left;
+	margin-top: 20px;
+	}
+ /* champs de saisie */
+input{
+	/*position: relative;*/
+	float: left;
+	width: 600px;
+	font-size:25px;
+	border: 2px solid gainsboro;
+	border-radius: 4px;
+	background-color: #E5E5E5;
+	margin-top: 10px
+	/*border-right: none;*/
+}
+/* barre de recherche */
+#btrech{
+    /* border: 2px solid  #adabaafd; ; */
+    height: 42px;
+    width: 50px;
+    margin-left: -4px;
+    margin-top: 10px;
+        }
+    
+.videoinfo{
+    font-size: 10px;
+	margin-left: 50px;
+	color:rgba(187, 183, 183, 0.897)
+	
+		
+}
+
+.TitreVideo{
+font-size: 12px;
+padding-left: 30px;
+
+
+}
+p{
+	margin-left: 50px;
+}
+ #logo{
+ 	float: left;
+ 	margin-top: 10px;
+ 	margin-left: 20px;
+	
+}
+/* lien a */
+a:link{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+
+}
+a:visited{
+	color: black;
+}
+/* les icons */
+.icon{	
+	font-size: 30px;
+	margin-top: 15px;/*
+	margin-left: 10px;
+	margin-right: 30px;*/
+	word-spacing: 40px;
+}
+
+/* RECADRER MES VIDEOS */
+video{
+	border-radius: 10%;
+	margin-left: 15px;
+	text-align: center;
+   
+   
+}
+/* photo du gars */
+.photo{
+			width:65px;/*
+			height:20%;*/
+			float: left;
+			margin-top: 20px;
+			padding-right: 20px;			
+		}
+
+
+
+ol{
+	text-align: center;
+}
+/* pied de page */
+ol li{
+	list-style: none;
+	border: 2px solid;
+	border-radius: 100%;
+	width: 50px;
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	background-color: red;
+}
+.Mesvideo{
+	
+
+	animation-duration: 3s;
+		animation-name: slidein;
+
+
+}
+	@keyframes slidein {
+		from {
+		  margin-top: 100%;
+		  
+		}
+	  
+	
+	  }
+	  .menu{
+		  float: left;
+		
+	  }
+	  .menubtn {
+		/* color: white; */
+		background-color: white;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+		margin-top: 20px;
+		color: gainsboro;
+	  }
+	  
+	  .menubtn:hover,
+	  .menubtn:focus {
+		background-color: white;
+	  }
+	  .menu {
+		position: relative;
+		display: inline-block;
+		z-index: 100;
+		font-family: Arial, Helvetica, sans-serif;
+	  }
+	  
+	  .menu-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+	  }
+	  
+	  .menu-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }

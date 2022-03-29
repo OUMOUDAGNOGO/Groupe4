@@ -1,0 +1,275 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <meta charset="utf-8">
+        
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <script src='https://kit.font-awesome.com/a076d05399.js'crossorigin='anymous'></script>
+        <link rel="stylesheet" type="text/css" href="index2.css">
+        <link rel="icon" href="Image/youtube.png">
+        <script src="index.js"></script>
+        <title>site</title>
+    </head>
+    <body>
+            
+            <div class="container-fluid" >
+            
+            <header>
+                
+                <div class="row">
+                    <div class="col-md-3"> <!-- notre premiere line  !-->
+                        <div class="menu">
+                            <button onclick="myFunction()" class="menubtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                            <div id="monMenu" class="menu-content">
+                            <a href="#Accueil">Accueil</a>
+                            <a href="#Chaine">Chaine</a>
+                            <a href="#Abonnement">Abonnement</a>
+                            <a href="#Deconnecter">Deconnecter</a>
+                            </div>
+                            
+                        </div>
+                        <div class="logo">
+                            <a href="index.html"> <img id="logo" src="image/LogoOuiTube.png" alt="icon video" width="200px" ></a>
+                        </div><!-- le logo dans le liens de l'acceuil!-->
+                    </div>
+                <div class="col-md-7">
+                    <div class="barry">   <input type="search" name="search" placeholder="Rechercher">
+                    <!-- <div id="irech"> <a href=""> <i class="fa fa-search" style="color:#939397;" ></i> </a></div> bare de recherche!-->
+
+                        <button id="btrech" type="submit"  value="Submit"><i class="fa fa-search" style="color:#939397;" ></i></button>
+                        </div>
+                </div>
+
+                    <div class="icon">
+                        <i onmouseover="this.style.color='red'"
+                        onmouseout="this.style.color='#E5E5E5'" class="fa fa-bell" style="color: #E5E5E5;"></i>
+                        <i onmouseover="this.style.color='red'"
+                        onmouseout="this.style.color='#E5E5E5'" class="fa fa-arrow-circle-up" style="color: #E5E5E5;"></i>
+                        <i onmouseover="this.style.color='red'"
+                         onmouseout="this.style.color='#E5E5E5'" class="fa fa-user-circle" style="color: #E5E5E5;"></i>
+                      </div>
+                    </div>
+                
+                
+        </header>
+        <div class="Mesvideo">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        
+                    <video  class="video1" controls width="300px" height="200" src="video/1- How to do  Business with Facebook Clone Script.mp4" poster="image/imag1.PNG">
+                    </video>
+                    <script>
+                        // Targeting video element 
+                        let clip = document.querySelector(".video1")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        clip.addEventListener("mouseover", function (e) {
+                        clip.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        clip.addEventListener("mouseout", function (e) {
+                        clip.pause();
+                        })
+                </script>
+                            <div class="profil"><img class="photo" src="Image/CaptureP.PNG">
+                        </div>
+                            <p><div class="TitreVideo"><a href="video/1- How to do  Business with Facebook Clone Script.mp4">Clonez le réseau Facebook <br> en partant de zero</a>
+                        </div>
+                                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures
+                            </div>
+                            </p>
+                    </div>
+    
+                    <div class="col-md-3">
+                    <video id="video2" controls width="300px" height="200" src="video/2- Réveiller son corps - Ma ROUTINE matinale.mp4" poster="image/ImAG2.png">
+                        <script>
+                            // Targeting video element 
+                            let cli = document.querySelector("#video2")
+        
+                            /* Applying mouseover event on video clip 
+                            and then we call play() function to play 
+                            the video when the mouse is over the video */
+                            cli.addEventListener("mouseover", function (e) {
+                            cli.play();
+                            })
+        
+                            /* Applying mouseout event on video clip 
+                            and then we call pause() function to stop 
+                            the video when the mouse is out the video */
+                            cli.addEventListener("mouseout", function (e) {
+                            cli.pause();
+                            })
+                    </script>
+                    </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/2- Réveiller son corps - Ma ROUTINE matinale.mp4">Cours de fitness,profitez de séances <br> gratuites pour vous révéler.</a></div>
+                    <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+    
+                <div class="col-md-3">
+                    <video id="video3" controls width="300px" height="200" src="video/3- Jeune fille, voici comment devenir un leader et briller dans la vie!.mp4" poster="image/IMAG3.PNG">
+                        
+                    </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/3- Jeune fille, voici comment devenir un leader et briller dans la vie!.mp4">Découvrir comment les femmes <br> réussissent dans la société.</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+    
+                <div class="col-md-3">
+                <video id="video4" controls width="300px" height="200" src="video/4- Comment retrouver la joie de vivre -.mp4" poster="image/IMAG4.PNG">
+                    <script>
+                        // Targeting video element 
+                        let cl = document.querySelector("#video4")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        cl.addEventListener("mouseover", function (e) {
+                        cl.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        cl.addEventListener("mouseout", function (e) {
+                        cl.pause();
+                        })
+                </script>
+                </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/4- Comment retrouver la joie de vivre -.mp4">La joie de vivre est à la porté de tous, sans exception aucune</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+                </div>
+    
+                <div class="row">
+    
+                <div class="col-md-3">
+                <video id="video5" controls width="300px" height="200" src="video/5-1ere étapes de la construction du four à induction  métallurgie par les étudiants de l'UCAD.mp4" poster="image/IMAG5.PNG">
+                    <script>
+                        // Targeting video element 
+                        let c = document.querySelector("#video5")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        c.addEventListener("mouseover", function (e) {
+                        c.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        c.addEventListener("mouseout", function (e) {
+                        c.pause();
+                        })
+                </script>
+                </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/6- DECOUVREZ L'INTRANET - L'intranet simple, expliqué et animé.mp4">Les sciences métallurgiques au coeur des <br> innovations.</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+    
+                <div class="col-md-3">
+                <video id="video6" controls width="300px" height="200" src="video/6- DECOUVREZ L'INTRANET - L'intranet simple, expliqué et animé.mp4" poster="image/IMAG6.PNG">
+                    <script>
+                        // Targeting video element 
+                        let vi = document.querySelector("#video6")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        vi.addEventListener("mouseover", function (e) {
+                        vi.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        vi.addEventListener("mouseout", function (e) {
+                        vi.pause();
+                        })
+                </script>
+                </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/1- How to do  Business with Facebook Clone Script.mp4">Decouvrez comment ça marche internet et le Web</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+    
+                <div class="col-md-3">
+                <video id="video7" controls width="300px" height="200" src="video/7- Le développement Front-end (3_8).mp4" poster="image/IMAG7.PNG">
+                    <script>
+                        // Targeting video element 
+                        let i = document.querySelector("#video7")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        i.addEventListener("mouseover", function (e) {
+                        i.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        i.addEventListener("mouseout", function (e) {
+                        i.pause();
+                        })
+                </script>
+                </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/1- How to do  Business with Facebook Clone Script.mp4">Découvrez juste expert dans <br> le développement web Frontend</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+    
+                <div class="col-md-3">
+                <video id="video8" controls width="300px" height="200" src="video/8- 4 conseils pour travailler de chez soi efficacement _ Learnybox.mp4" poster="image/IMAG8.PNG">
+                    <script>
+                        // Targeting video element 
+                        let vid = document.querySelector("#video8")
+
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        vid.addEventListener("mouseover", function (e) {
+                        vidd.play();
+                        })
+
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        vid.addEventListener("mouseout", function (e) {
+                        vid.pause();
+                        })
+                </script>
+                </video>
+                <div class="profil"><img class="photo" src="Image/CaptureP.PNG"></div>
+                <p><div class="TitreVideo"><a href="video/1- How to do  Business with Facebook Clone Script.mp4">Découvrez les astuces <br> travailler efficacemen au bureau</a></div>
+                <div class="videoinfo"> Web design<br>452 Vue il ya 21 heures</div></p></div>
+            </div>
+            </div>
+        
+        <footer>
+            <ol>
+                <li onmouseover="this.style.backgroundColor='slategray'"
+                    onmouseout="this.style.backgroundColor='red'"><</li>
+                <li  style="background-color:slategray ;">1</li>
+                <li onmouseover="this.style.backgroundColor='slategray'"
+                    onmouseout="this.style.backgroundColor='red'">2</li>
+                    <li onmouseover="this.style.backgroundColor='slategray'"
+                    onmouseout="this.style.backgroundColor='red'">></li>
+                
+            </ol>
+                
+        </footer>
+
+            </div>
+        
+    </body>
+    </html>
